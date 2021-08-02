@@ -19,7 +19,7 @@ use App\Http\Controllers\ContasController;
 */
 
 /* DASHBOARD */
-Route::get('/dashboard', function () {
+Route::get('/', function () {
     return view('dashboard');
 })->name('dashboard');
 
